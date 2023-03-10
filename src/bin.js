@@ -13,7 +13,7 @@ const cliConfig = {
     ['--point-offset-x-cm', '--point-offset-x', '--offset-x', '-x'],
     ['--point-offset-y-cm', '--point-offset-y', '--offset-y', '-y'],
     ['--z-multiplier', '--z-mult', '-z'],
-    ['--bw'],
+    ['--bw', '-bw'],
   ],
   default: {
     '--output': 'ply.ply',
