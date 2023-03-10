@@ -1,0 +1,53 @@
+{
+  "name": "rgbd2ply",
+  "version": "0.0.1-alpha.0",
+  "description": "reads color and depth from rgbd images and outputs ply files.",
+  "main": "src/bin.js",
+  "type": "module",
+  "scripts": {
+    "start": "src/bin.js",
+    "test": "t -p",
+    "format": "f -w"
+  },
+  "bin": {
+    "rgbd2ply": "src/bin.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemkollektiv/rgbd2ply.git"
+  },
+  "bugs": {
+    "url": "https://github.com/systemkollektiv/rgbd2ply/issues"
+  },
+  "keywords": [
+    "ply",
+    "rgbd",
+    "cli",
+    "generator"
+  ],
+  "author": "SystemKollektiv <thesystemcollective@gmail.com>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@magic/cli": "0.0.44",
+    "@magic/fs": "0.0.28",
+    "@magic/log": "0.1.18",
+    "sharp": "0.31.3"
+  },
+  "devDependencies": {
+    "@magic/format": "0.0.51",
+    "@magic/test": "0.2.16"
+  },
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "daniela weiss",
+      "github": "mslitto"
+    }
+  ]
+}
