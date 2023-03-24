@@ -29,3 +29,10 @@ flags:
 --z-multiplier      - multiplies the final depth value - default: 1 - alias: ["--z-mult", "-z"]
 --bw                - use a greyscale depth image - alias: ["-bw"]
 ```
+
+## Changelog
+
+## v0.0.2
+
+* update dependencies
+* add default export to lib
