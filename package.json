@@ -1,6 +1,6 @@
 {
   "name": "rgbd2ply",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "reads color and depth from rgbd images and outputs ply files.",
   "main": "src/index.js",
   "type": "module",
