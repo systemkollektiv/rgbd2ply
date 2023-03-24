@@ -22,3 +22,5 @@ export const rgbd2ply = async (args = {}) => {
 
   log.success('finished')
 }
+
+export default rgbd2ply
