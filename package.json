@@ -2,7 +2,7 @@
   "name": "rgbd2ply",
   "version": "0.0.1",
   "description": "reads color and depth from rgbd images and outputs ply files.",
-  "main": "src/bin.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start": "src/bin.js",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@magic/format": "0.0.51",
-    "@magic/test": "0.2.16"
+    "@magic/test": "0.2.17"
   },
   "contributors": [
     {
